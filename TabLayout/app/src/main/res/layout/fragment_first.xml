@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bpnsa.tablayout.FirstFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--  <ImageButton
+          android:layout_width="65dp"
+          android:layout_height="65dp"
+          android:id="@+id/floatButton"
+          android:background="@drawable/oval"
+          android:layout_marginBottom="65dp"
+          android:layout_marginRight="25dp"
+          android:elevation="10dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentEnd="true"
+          />
+      -->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/firstRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

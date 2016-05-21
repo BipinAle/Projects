@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#dd0"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="200dp "
+        android:layout_height="200dp"
+        android:id="@+id/header_foto"
+        android:src="@drawable/chow_chow"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/header_name"
+        android:layout_marginBottom="20dp"
+        android:text="Chow Chow"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/header_email"
+            android:text="chowchow@gmail.com"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
